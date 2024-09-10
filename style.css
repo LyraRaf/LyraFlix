@@ -1,0 +1,78 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Preto */
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0000; /* Preto */
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.title-bar {
+    background-color: #0000; /* Ciano Claro */
+    padding: 10px;
+}
+
+.title-bar h1 {
+    color: #00FFFF; /* Ciano Claro */
+    margin: 0;
+    font-size: 2rem; /* Tamanho maior para o título */
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    background-color: #000; /* Preto */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #00FFFF; /* Ciano Claro */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#resultados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    border: 2px solid #000; /* Preto */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #111; /* Preto */
+    text-align: center;
+    max-width: 240px; /* Menor tamanho dos trailers */
+    flex: 1 1 calc(25% - 20px); /* 4 trailers por linha com espaçamento */
+}
+
+.movie iframe {
+    width: 100%;
+    height: 135px; /* Menor altura dos trailers */
+    border-radius: 8px;
+}
+
+.movie-title {
+    color: #f4f4f4; /* Cor dos títulos dos filmes */
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #111; /* Preto */
+    padding: 10px;
+    text-align: center;
+    color: #f4f4f4;
+}
